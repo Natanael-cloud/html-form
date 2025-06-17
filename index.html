@@ -6,12 +6,19 @@
     <title>Formulário de Cadastro</title>
 </head>
 <body>
-    <form name="Cadastro" onsubmit="alert('enviei o Formulário');" autocomplete="on" method="post" action="#">
-        Nome: <input type="text" name="name"/><br>
-        Idade: <input type="number" name="age"/><br>
-        Senha: <input type="password" name="password"/><br>
-        <button type="submit">Enviar</button>
-    </form>
-    
+    <form>
+        <label>Text:</label><input type="text"/><br>
+        <label>Number:</label><input type="number" min="0" max="99" step="5"/><br>
+        <label>Range:</label><input type="range" min="0" max="100" value="90"/><br>
+        <label>Color:</label><input type="color"/><br>
+        <label>Email:</label><input type="email"/><br>
+        <label>Url:</label><input type="url"/><br>
+        <label>Date:</label><input type="date"/><br>
+        <label>Checkbox:</label><input type="checkbox"/><br>
+        <label>File:</label><input type="file"/><br>
+        <label>Search:</label><input type="search"/><br>
+        <label>button:</label><input type="button" value="Enviar"/><br>
+
+    </form>    
 </body>
 </html>
